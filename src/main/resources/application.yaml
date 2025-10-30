@@ -8,3 +8,7 @@ spring:
   jpa:
     show-sql: true
 
+  mvc:
+   hiddenmethod:
+    filter:
+     enabled: true
